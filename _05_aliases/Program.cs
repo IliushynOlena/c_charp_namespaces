@@ -13,21 +13,24 @@ namespace M
         public int m = 3;
         public static void Main()
         {        
-            X.Class obj = new X.Class(); // Error
-           
+          
+            //X.Class obj = new X.Class(); // Error
+            
 
+
+           
             NS.Class obj2 = new NS.Class();
             NS1.Class @class = new NS1.Class();
 
-
-            X::Class @class1 = new X::Class();
+       
+            X::Class @class3 = new X::Class();
             X.Class @class2 = new X.Class();    
 
             X::Class objA = new X::Class();
             objA.Print();
            
-            Y.Class class3 = new Y.Class();
-            Y::Class class4 = new Y::Class();
+            Y.Class class4 = new Y.Class();
+            Y::Class class5 = new Y::Class();
 
             Y::Class objB = new Y::Class();
             objB.Print();
@@ -35,7 +38,7 @@ namespace M
             Y.Class c = new Y.Class();
 
          
-          
+          X.Class @class22 = new X.Class(); 
         }
     }
     public class X

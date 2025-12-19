@@ -42,7 +42,7 @@ namespace CompanyName
         }
     }
 }
-// CompanyName.BankingSerices.Client
+namespace CompanyName1.BankingSerices.Client{}
 
 namespace NS
 {
@@ -58,6 +58,8 @@ namespace NS
             {
                 Foo obj = new Foo();
                 obj.Method();
+
+
 
                 NS.Foo f = new NS.Foo();
                 f.Method();
@@ -79,6 +81,6 @@ class Foo
 {
     public void Method()
     {
-        Console.WriteLine("Hello from .Foo");
+        Console.WriteLine("Hello from .Foo global");
     }
 }
