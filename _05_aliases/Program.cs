@@ -12,11 +12,11 @@ namespace M
     {
         public int m = 3;
         public static void Main()
-        {        
-          
-            //X.Class obj = new X.Class(); // Error
-            
+        {
 
+            X.Class obj = new X.Class(); // Error
+
+            Y.Class c = new Y.Class();
 
            
             NS.Class obj2 = new NS.Class();
@@ -35,10 +35,12 @@ namespace M
             Y::Class objB = new Y::Class();
             objB.Print();
 
-            Y.Class c = new Y.Class();
+            //Y.Class c = new Y.Class();
 
          
           X.Class @class22 = new X.Class(); 
+           // X.Class @class = new X.Class();
+         
         }
     }
     public class X

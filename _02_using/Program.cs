@@ -4,8 +4,8 @@
 
 //using NS1;
 using System;
-//using NS;
-using NS1;
+using NS;
+//using NS1;
 
 
 namespace M
@@ -15,7 +15,7 @@ namespace M
         public static void Main()
         {
             Class objA = new Class();
-            
+    
             NS1.Class c1 = new NS1.Class();
             //Class objA = new Class();
             //Class objA = new Class();
