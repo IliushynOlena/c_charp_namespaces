@@ -3,8 +3,10 @@
 //using NS;
 
 //using NS1;
+
+using NS1;
 using System;
-using NS;
+//using NS;
 //using NS1;
 
 
@@ -17,13 +19,15 @@ namespace M
             Class objA = new Class();
     
             NS1.Class c1 = new NS1.Class();
+            c1.Print();
             //Class objA = new Class();
             //Class objA = new Class();
             NS.Class @class = new NS.Class();
             //NS.Class objA = new NS.Class();
+            @class.Print(); 
           
-            Console.WriteLine("objA = " + objA.a);
-            objA.Print();
+            //Console.WriteLine("objA = " + objA.a);
+           // objA.Print();
 
 
             NS1.Class objB = new NS1.Class();

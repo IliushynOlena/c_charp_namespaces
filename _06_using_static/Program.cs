@@ -15,6 +15,7 @@ class Program
         WriteLine();
         WriteLine();
         WriteLine();
+        WriteLine("Some message");
        
 
 

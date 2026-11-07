@@ -59,9 +59,12 @@ namespace B
             Incrementer obj1 = new Incrementer(10);
 
             Console.WriteLine(obj1.MultyIncrement());
+            
            
+
+
           
-         
+       
             A.Incrementer incrementer = new A.Incrementer(10);
             ////A.Incrementer obj2 = new A.Incrementer(5);
             Console.WriteLine(incrementer.AnotherMultyIncrement());

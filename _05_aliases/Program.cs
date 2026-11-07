@@ -18,8 +18,10 @@ namespace M
 
             Y.Class c = new Y.Class();
 
-           
-            NS.Class obj2 = new NS.Class();
+            Y.Class c1 = new Y.Class();
+            Y::Class c2 = new Y::Class();
+
+                NS.Class obj2 = new NS.Class();
             NS1.Class @class = new NS1.Class();
 
        
@@ -41,6 +43,7 @@ namespace M
           X.Class @class22 = new X.Class(); 
            // X.Class @class = new X.Class();
          
+            
         }
     }
     public class X
